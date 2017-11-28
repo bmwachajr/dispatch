@@ -54,6 +54,9 @@ group :development do
 
   # rspec testing framework
   gem 'rspec-rails', '~> 3.6'
+
+  # use rubocop to clean code
+  gem 'rubocop', '~> 0.51.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
