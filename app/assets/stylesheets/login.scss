@@ -1,0 +1,451 @@
+//colors
+$color_tapa_approx: #777777;
+$color_silver_sand_approx: #c0c1c2;
+$white: #ffffff;
+$color_alto_approx: #ddd;
+$color_mine_shaft_approx: #333333;
+$color_storm_dust_approx: #666666;
+$color_cerulean_approx: #00bbff;
+$color_gallery_approx: #eee;
+$color_picton_blue_approx: #55acee;
+$color_picton_blue_14_approx: rgba(85, 172, 238, 0.14);
+$color_picton_blue_20_approx: rgba(85, 172, 238, 0.2);
+$color_picton_blue_12_approx: rgba(85, 172, 238, 0.12);
+$color_picton_blue_42_approx: rgba(85, 172, 238, 0.42);
+$black_12: rgba(0, 0, 0, 0.12);
+$color_azure_approx: #3b5998;
+$color_azure_14_approx: rgba(59, 89, 152, 0.14);
+$color_azure_20_approx: rgba(59, 89, 152, 0.2);
+$color_azure_12_approx: rgba(59, 89, 152, 0.12);
+$color_azure_42_approx: rgba(59, 89, 152, 0.42);
+$color_valencia_approx: #dd4b39;
+$color_valencia_14_approx: rgba(221, 75, 57, 0.14);
+$color_valencia_20_approx: rgba(221, 75, 57, 0.2);
+$color_valencia_12_approx: rgba(221, 75, 57, 0.12);
+$color_valencia_42_approx: rgba(221, 75, 57, 0.42);
+$color_mine_shaft_14_approx: rgba(51, 51, 51, 0.14);
+$color_mine_shaft_20_approx: rgba(51, 51, 51, 0.2);
+$color_mine_shaft_12_approx: rgba(51, 51, 51, 0.12);
+$color_mine_shaft_42_approx: rgba(51, 51, 51, 0.42);
+
+//urls
+$url_0: url(../img/bg.jpg);
+
+.tim-row {
+	margin-bottom: 20px;
+	padding-top: 50px;
+	h3 {
+		margin-top: 0;
+	}
+}
+.tim-white-buttons {
+	background-color: $color_tapa_approx;
+}
+.title {
+	margin-top: 30px;
+	margin-bottom: 25px;
+	min-height: 32px;
+	&.text-center {
+		margin-bottom: 50px;
+	}
+}
+.tim-typo {
+	padding-left: 25%;
+	margin-bottom: 40px;
+	position: relative;
+	.tim-note {
+		bottom: 10px;
+		color: $color_silver_sand_approx;
+		display: block;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 13px;
+		left: 0;
+		margin-left: 20px;
+		position: absolute;
+		width: 260px;
+	}
+}
+.switch {
+	margin-right: 20px;
+}
+.space {
+	height: 130px;
+	display: block;
+}
+.space-110 {
+	height: 110px;
+	display: block;
+}
+.space-50 {
+	height: 50px;
+	display: block;
+}
+.space-70 {
+	height: 70px;
+	display: block;
+}
+.navigation-example {
+	background-image: $url_0;
+	background-position: center center;
+	background-size: cover;
+	margin-top: 0;
+	min-height: 740px;
+	.img-src {
+		background-attachment: scroll;
+	}
+}
+#notifications {
+	background-color: $white;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.tim-note {
+	text-transform: capitalize;
+}
+.space-100 {
+	height: 100px;
+	display: block;
+	width: 100%;
+}
+.be-social {
+	padding-bottom: 20px;
+	margin: 0 auto 40px;
+}
+.txt-white {
+	color: $white;
+}
+.txt-gray {
+	color: $color_alto_approx !important;
+}
+.parallax {
+	width: 100%;
+	height: 570px;
+	display: block;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	.parallax-image {
+		width: 100%;
+		overflow: hidden;
+		position: absolute;
+		img {
+			width: 100%;
+		}
+	}
+}
+.logo-container {
+	.logo {
+		overflow: hidden;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+		border: 1px solid $color_mine_shaft_approx;
+		width: 50px;
+		float: left;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .2s;
+		img {
+			width: 100%;
+		}
+	}
+	.brand {
+		font-size: 16px;
+		color: $white;
+		line-height: 18px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 7px;
+		width: 70px;
+		height: 40px;
+		text-align: left;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .2s;
+	}
+	.brand-material {
+		font-size: 18px;
+		margin-top: 15px;
+		height: 25px;
+		width: auto;
+	}
+}
+.fixed-section {
+	top: 90px;
+	max-height: 80vh;
+	overflow: scroll;
+	&.float {
+		position: fixed;
+		top: 100px;
+		width: 200px;
+		margin-top: 0;
+	}
+	ul li {
+		list-style: none;
+	}
+	li a {
+		font-size: 14px;
+		padding: 2px;
+		display: block;
+		color: $color_storm_dust_approx;
+		&.active {
+			color: $color_cerulean_approx;
+		}
+	}
+}
+@media(max-width: 768px) {
+	.parallax {
+		.parallax-image {
+			width: 100%;
+			height: 640px;
+			overflow: hidden;
+			img {
+				height: 100%;
+				width: auto;
+			}
+		}
+		.motto {
+			top: 170px;
+			margin-top: 0;
+			font-size: 60px;
+			width: 270px;
+		}
+	}
+	.btn {
+		margin-bottom: 10px;
+	}
+	.btn-morphing {
+		margin-bottom: 10px;
+	}
+}
+.separator {
+	content: "Separator";
+	color: $white;
+	display: block;
+	width: 100%;
+	padding: 20px;
+	&.separator-gray {
+		background-color: $color_gallery_approx;
+	}
+}
+.separator-line {
+	background-color: $color_gallery_approx;
+	height: 1px;
+	width: 100%;
+	display: block;
+}
+.img-container {
+	width: 100%;
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+}
+.lightbox {
+	img {
+		width: 100%;
+	}
+	.modal-content {
+		overflow: hidden;
+	}
+	.modal-body {
+		padding: 0;
+	}
+}
+@media screen and(min-width: 991px) {
+	.lightbox .modal-dialog {
+		width: 960px;
+	}
+}
+@media(max-width: 991px) {
+	.fixed-section.affix {
+		position: relative;
+		margin-bottom: 100px;
+	}
+}
+#javascriptComponents {
+	padding-bottom: 0;
+	.btn-raised {
+		margin: 10px 5px;
+	}
+}
+.layers-container {
+	display: block;
+	margin-top: 50px;
+	position: relative;
+	img {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		top: 0;
+		left: 0;
+		text-align: center;
+	}
+}
+.section-black {
+	background-color: $color_mine_shaft_approx;
+}
+.animate {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 1.5s ease-in-out;
+}
+.sharing-area {
+	margin-top: 80px;
+	.btn {
+		margin: 15px 4px 0;
+		color: $white;
+		i {
+			font-size: 18px;
+			position: relative;
+			top: 2px;
+			margin-right: 5px;
+		}
+	}
+	.btn-twitter {
+		background-color: $color_picton_blue_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 2px 2px 0 $color_picton_blue_14_approx, 0 3px 1px -2px $color_picton_blue_20_approx, 0 1px 5px 0 $color_picton_blue_12_approx;
+		&:hover {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 14px 26px -12px $color_picton_blue_42_approx, 0 4px 23px 0 $black_12, 0 8px 10px -5px $color_picton_blue_20_approx;
+		}
+	}
+	.btn-facebook {
+		background-color: $color_azure_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 2px 2px 0 $color_azure_14_approx, 0 3px 1px -2px $color_azure_20_approx, 0 1px 5px 0 $color_azure_12_approx;
+		&:hover {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 14px 26px -12px $color_azure_42_approx, 0 4px 23px 0 $black_12, 0 8px 10px -5px $color_azure_20_approx;
+		}
+	}
+	.btn-google-plus {
+		background-color: $color_valencia_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 2px 2px 0 $color_valencia_14_approx, 0 3px 1px -2px $color_valencia_20_approx, 0 1px 5px 0 $color_valencia_12_approx;
+		&:hover {
+			background-color: $color_valencia_approx;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 14px 26px -12px $color_valencia_42_approx, 0 4px 23px 0 $black_12, 0 8px 10px -5px $color_valencia_20_approx;
+		}
+	}
+	.btn-github {
+		background-color: $color_mine_shaft_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 2px 2px 0 $color_mine_shaft_14_approx, 0 3px 1px -2px $color_mine_shaft_20_approx, 0 1px 5px 0 $color_mine_shaft_12_approx;
+		&:hover {
+			background-color: $color_mine_shaft_approx;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 14px 26px -12px $color_mine_shaft_42_approx, 0 4px 23px 0 $black_12, 0 8px 10px -5px $color_mine_shaft_20_approx;
+		}
+	}
+}
+.section-thin {
+	padding: 0;
+}
+.section-notifications {
+	padding: 0;
+}
+.section-navbars {
+	padding-top: 0;
+}
+.section-tabs {
+	background: $color_gallery_approx;
+}
+.section-pagination {
+	padding-bottom: 0;
+}
+.section-examples {
+	a {
+		text-decoration: none;
+	}
+	h5 {
+		margin-top: 30px;
+	}
+}
+.components-page {
+	.title {
+		color: $white;
+	}
+	.wrapper > .header {
+		height: 400px;
+		padding-top: 100px;
+		background-size: cover;
+		background-position: center center;
+	}
+}
+.tutorial-page {
+	.title {
+		color: $white;
+	}
+	.wrapper > .header {
+		height: 400px;
+		padding-top: 100px;
+		background-size: cover;
+		background-position: center center;
+	}
+}
+#navbar-full .navbar {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0 !important;
+	margin-bottom: 15px;
+	z-index: 2;
+}
+#buttons .btn {
+	margin: 0 0 15px;
+}
+.navbar-small .logo-container .brand {
+	color: $color_mine_shaft_approx;
+}
+.social-buttons-demo .btn {
+	margin-right: 5px;
+	margin-bottom: 7px;
+}
+.presentation .front {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .2s;
+	&:after {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .2s;
+	}
+	.btn {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .2s;
+	}
+}
+#images h4 {
+	margin-bottom: 30px;
+}
+.navbar-default.navbar-small .logo-container .brand {
+	color: $color_mine_shaft_approx;
+}
+.navbar-transparent.navbar-small .logo-container .brand {
+	color: $white;
+}
+#navbar .navbar {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0;
+}
+.section-download h4 {
+	margin-bottom: 25px;
+}
+
+.input-group-addon {
+    background-color: inherit;
+    border: none;
+    padding-left: 0;
+}
+
+.card-signup {
+    padding: 15px 5px 15px 5px;
+}
+
+.form-checkbox {
+    padding-left: 0px;
+}
+
+.form-buttons {
+    width: 100%;
+}
+
+
