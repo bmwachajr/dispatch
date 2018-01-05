@@ -19,6 +19,9 @@ build/
 *.bridgesupport
 build-iPhoneOS/
 build-iPhoneSimulator/
+db/development.sqlite3
+db/test.sqlite3
+log/test.log
 
 ## Specific to RubyMotion (use of CocoaPods):
 #
@@ -36,6 +39,7 @@ build-iPhoneSimulator/
 
 ## Environment normalization:
 .DS_Store
+.byebug_history
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
