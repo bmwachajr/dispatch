@@ -416,6 +416,7 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 1611ms (Views: 1608.6ms)
 
 
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
   [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
@@ -10105,5 +10106,1990 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/shared/_links.html.erb (1.8ms)
   Rendered devise/sessions/new.html.erb within layouts/application (14.4ms)
 Completed 200 OK in 324ms (Views: 322.1ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 12:37:09 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 3756ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174021495820'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 12:37:15 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174026629500'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 12:37:16 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174027671520'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 12:37:17 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 43ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174007567900'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:37:28 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174017377060'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:38:46 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 25ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174023823180'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:40:14 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2301ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2235951555561918640_70174025698500'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:40:39 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 328ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181546777120'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:41:29 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2311ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$new-blue".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/mixins/_chartist.scss:70
+app/assets/stylesheets/lbd/_mixins.scss:22
+app/assets/stylesheets/dashboard.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181516929900'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:42:33 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3074ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$azure-navbar".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:73
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181582161640'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:43:26 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3195ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-thick".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_buttons.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181582219200'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:43:50 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 32ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181578596940'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:45:24 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2830ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181530209400'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:45:44 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 21ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181599022900'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:45:46 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 21ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181585789940'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:45:47 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 32ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181595318140'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:46:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181554788660'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:46:54 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 236ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181581069300'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:47:13 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181577711320'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:50:12 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 27ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181559246560'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:51:16 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2922ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181582842580'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:51:21 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181529640360'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:51:36 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3097ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___227106907974419476_70181581206440'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:51:51 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 331ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254424606880'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 12:52:11 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254380300980'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:52:37 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2280ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254380642620'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:53:15 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2052ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-thick".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_buttons.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254441331060'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:53:51 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 1922ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'opacity'.):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_buttons.scss:8:in `opacity'
+app/assets/stylesheets/lbd/_buttons.scss:8
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254393688460'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:58:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 32ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254393974600'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:58:06 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254442512220'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:58:30 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 741ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254428257600'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:59:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2033ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/_lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254412581100'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:59:15 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 749ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254413945300'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:59:37 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 767ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254382144820'
+Started GET "/" for 127.0.0.1 at 2017-12-28 12:59:40 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 746ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254424378360'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:00:18 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 821ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254426800060'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 13:01:25 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 551ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254393647240'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:02:18 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 797ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254455609680'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:08:25 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 754ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254448165960'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:08:29 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 759ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254455280940'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:09:35 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 736ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: lbd/variables.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/base.scss:1
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__462260191156130867_70254454822180'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:10:07 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 1037ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: mixins/transparency.
+Load paths:
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/config
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/images
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/benjaminwacha/Code/ruby/dispatch/node_modules
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.5/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/javascripts
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets
+  /Users/benjaminwacha/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.0.0.beta2.1/assets/stylesheets):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_mixins.scss:3
+app/assets/stylesheets/base.scss:2
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231763063160'
+Started POST "/__web_console/repl_sessions/5625118e37ca92721326ccce7a0ad882/trace" for 127.0.0.1 at 2017-12-28 13:10:59 +0300
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:12:54 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3418ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231767411180'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 13:13:02 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 25ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231794069500'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:14:24 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231790621320'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:39:51 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 23ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231768471320'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:39:54 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231732394960'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:41:22 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2838ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231772093220'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:42:34 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3226ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-thick".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_buttons.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231731672660'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:43:04 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3307ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_cards.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231805629420'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:43:26 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3421ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$ct-include-classes".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_chartist.scss:220
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231791664580'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:43:50 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3793ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$medium-gray".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_checkbox-radio-switch.scss:32
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231732754500'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:44:13 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3745ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-extreme".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_dropdown.scss:5
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231791190040'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:44:39 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3769ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$white-color".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_footers.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231739389520'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:44:58 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3751ms
+
+
+  
+ActionView::Template::Error (Undefined mixin 'placeholder'.):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_inputs.scss:2:in `placeholder'
+app/assets/stylesheets/lbd/_inputs.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231739798960'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:45:27 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 3838ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$info-color".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_misc.scss:14
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231818371080'
+Started GET "/" for 127.0.0.1 at 2017-12-28 13:45:52 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3951ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$new-blue".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/mixins/_chartist.scss:70
+app/assets/stylesheets/lbd/_mixins.scss:22
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231801881800'
+Started GET "/dashboard/index" for 127.0.0.1 at 2017-12-28 13:48:10 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 54ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$new-blue".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/mixins/_chartist.scss:70
+app/assets/stylesheets/lbd/_mixins.scss:22
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231812850400'
+Started GET "/" for 127.0.0.1 at 2018-01-02 16:46:22 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 281ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$new-blue".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/mixins/_chartist.scss:70
+app/assets/stylesheets/lbd/_mixins.scss:22
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231774459640'
+Started GET "/" for 127.0.0.1 at 2018-01-02 16:46:27 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 83ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$new-blue".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/mixins/_chartist.scss:70
+app/assets/stylesheets/lbd/_mixins.scss:22
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1451976136789301661_70231790528380'
+Started GET "/" for 127.0.0.1 at 2018-01-02 16:48:31 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 1068ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$new-blue".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/mixins/_chartist.scss:70
+app/assets/stylesheets/lbd/_mixins.scss:22
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4587515890019248170_70273805946740'
+Started GET "/" for 127.0.0.1 at 2018-01-02 16:51:28 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 1681ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$border-radius-base".):
+     5:     <title>Dispatch</title>
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11: 
+  
+app/assets/stylesheets/lbd/_alerts.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4587515890019248170_70273805216300'
+Started GET "/" for 127.0.0.1 at 2018-01-02 16:54:46 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 430ms (Views: 427.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 16:55:14 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 28.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:28:13 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 41ms (Views: 38.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:29:58 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 346ms (Views: 343.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:30:11 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 87ms (Views: 84.2ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:31:25 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 35ms (Views: 32.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:31:28 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 34.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:31:29 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 22.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:31:30 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 43ms (Views: 41.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:31:55 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1162ms (Views: 1160.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-02 19:32:14 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:32:27 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 18.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:32:32 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 20.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:32:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 19.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:32:51 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 566ms (Views: 371.2ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:33:15 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 23.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:33:18 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 38ms (Views: 36.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:18 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 297ms (Views: 212.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:20 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 22ms (Views: 20.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:20 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 37.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:21 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 37ms (Views: 35.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:21 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 28.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 28.7ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 29.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 28.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 34ms (Views: 25.7ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 43ms (Views: 38.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 31.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.5ms)
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 64ms (Views: 61.9ms)
+
+
+Completed 200 OK in 35ms (Views: 32.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 49ms (Views: 44.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 34.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 31.4ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:23 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 32.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:23 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 42ms (Views: 37.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:23 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 24.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:23 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 28.4ms)
+
+
+Started GET "/dashboard/typography.html" for 127.0.0.1 at 2018-01-02 19:34:28 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/dashboard/typography.html"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:29 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 43ms (Views: 39.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:34:32 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 24.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:36:22 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:37:14 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 23.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:37:37 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:37:50 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:37:51 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 23.7ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:37:51 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 39.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:37:51 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 43.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:03 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:06 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:09 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:32 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:33 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 25.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 24.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.2ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.4ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 25.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 32.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 34.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 25.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:34 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 29.7ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 19.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 27.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 25.7ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 22.4ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 23.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.2ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.4ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 29.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.5ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:35 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 26.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.3ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 28.6ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.4ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.4ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.1ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.8ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 31.9ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.0ms)
+
+
+Started GET "/dashboard/index" for 127.0.0.1 at 2018-01-02 19:38:36 +0300
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-02 19:51:01 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 33.3ms)
+>>>>>>> feat(dashoard): create a user dashboard
 
 
