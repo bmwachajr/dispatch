@@ -1,0 +1,145 @@
+/* line 4, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 9, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin-wrapper {
+  background-color: rgba(255, 255, 255, 0.863);
+  width: 450px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 10% !important;
+  align-items: center;
+}
+
+/* line 18, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+/* line 24, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+/* line 29, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+/* line 33, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* line 41, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+/* line 45, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 51, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (min-width: 992px) {
+  /* line 58, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+  .typo-line {
+    padding-left: 140px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  /* line 64, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+  .typo-line .category {
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0px;
+    position: absolute;
+  }
+}
+/* line 72, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.all-icons [class*="pe-"] {
+  font-size: 40px;
+}
+
+/* line 75, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.all-icons input {
+  border: 0;
+}
+
+/* line 78, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.all-icons .font-icon-detail {
+  text-align: center;
+  padding: 45px 0px 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+/* line 85, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.all-icons .font-icon-detail input {
+  margin: 25px auto 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* line 94, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+#map {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+/* line 100, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.places-buttons .btn {
+  margin-bottom: 30px;
+}
+
+/* line 103, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.sidebar .nav > li.active-pro {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+/* line 108, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.sidebar .nav > li.active-pro a {
+  background: rgba(255, 255, 255, 0.14);
+  opacity: 1;
+  color: #FFFFFF;
+}
+
+/* line 114, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3) {
+  text-align: center;
+}
+
+@media all and (max-width: 991px) {
+  /* line 120, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/home.scss */
+  .sidebar .nav > li.active-pro {
+    position: initial;
+  }
+}

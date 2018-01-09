@@ -1,0 +1,525 @@
+/* line 34, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tim-row {
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+/* line 37, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tim-row h3 {
+  margin-top: 0;
+}
+
+/* line 41, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+/* line 44, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+}
+/* line 48, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.title.text-center {
+  margin-bottom: 50px;
+}
+
+/* line 52, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tim-typo {
+  padding-left: 25%;
+  margin-bottom: 40px;
+  position: relative;
+}
+/* line 56, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tim-typo .tim-note {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  margin-left: 20px;
+  position: absolute;
+  width: 260px;
+}
+
+/* line 69, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.switch {
+  margin-right: 20px;
+}
+
+/* line 72, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.space {
+  height: 130px;
+  display: block;
+}
+
+/* line 76, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.space-110 {
+  height: 110px;
+  display: block;
+}
+
+/* line 80, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.space-50 {
+  height: 50px;
+  display: block;
+}
+
+/* line 84, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.space-70 {
+  height: 70px;
+  display: block;
+}
+
+/* line 88, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.navigation-example {
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-top: 0;
+  min-height: 740px;
+}
+/* line 94, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.navigation-example .img-src {
+  background-attachment: scroll;
+}
+
+/* line 98, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#notifications {
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+/* line 104, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tim-note {
+  text-transform: capitalize;
+}
+
+/* line 107, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.space-100 {
+  height: 100px;
+  display: block;
+  width: 100%;
+}
+
+/* line 112, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.be-social {
+  padding-bottom: 20px;
+  margin: 0 auto 40px;
+}
+
+/* line 116, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.txt-white {
+  color: #ffffff;
+}
+
+/* line 119, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.txt-gray {
+  color: #ddd !important;
+}
+
+/* line 122, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.parallax {
+  width: 100%;
+  height: 570px;
+  display: block;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 130, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.parallax .parallax-image {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+/* line 134, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.parallax .parallax-image img {
+  width: 100%;
+}
+
+/* line 140, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.logo-container .logo {
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  width: 50px;
+  float: left;
+  transition: all .2s;
+}
+/* line 149, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.logo-container .logo img {
+  width: 100%;
+}
+/* line 153, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.logo-container .brand {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 18px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 7px;
+  width: 70px;
+  height: 40px;
+  text-align: left;
+  transition: all .2s;
+}
+/* line 166, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.logo-container .brand-material {
+  font-size: 18px;
+  margin-top: 15px;
+  height: 25px;
+  width: auto;
+}
+
+/* line 173, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.fixed-section {
+  top: 90px;
+  max-height: 80vh;
+  overflow: scroll;
+}
+/* line 177, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.fixed-section.float {
+  position: fixed;
+  top: 100px;
+  width: 200px;
+  margin-top: 0;
+}
+/* line 183, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.fixed-section ul li {
+  list-style: none;
+}
+/* line 186, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.fixed-section li a {
+  font-size: 14px;
+  padding: 2px;
+  display: block;
+  color: #666666;
+}
+/* line 191, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.fixed-section li a.active {
+  color: #00bbff;
+}
+
+@media (max-width: 768px) {
+  /* line 198, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .parallax .parallax-image {
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+  }
+  /* line 202, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .parallax .parallax-image img {
+    height: 100%;
+    width: auto;
+  }
+  /* line 207, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .parallax .motto {
+    top: 170px;
+    margin-top: 0;
+    font-size: 60px;
+    width: 270px;
+  }
+
+  /* line 214, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  /* line 217, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .btn-morphing {
+    margin-bottom: 10px;
+  }
+}
+/* line 221, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.separator {
+  content: "Separator";
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+/* line 227, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.separator.separator-gray {
+  background-color: #eee;
+}
+
+/* line 231, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.separator-line {
+  background-color: #eee;
+  height: 1px;
+  width: 100%;
+  display: block;
+}
+
+/* line 237, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.img-container {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 240, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.img-container img {
+  width: 100%;
+}
+
+/* line 245, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.lightbox img {
+  width: 100%;
+}
+/* line 248, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.lightbox .modal-content {
+  overflow: hidden;
+}
+/* line 251, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.lightbox .modal-body {
+  padding: 0;
+}
+
+@media screen and (min-width: 991px) {
+  /* line 256, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .lightbox .modal-dialog {
+    width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 261, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+  .fixed-section.affix {
+    position: relative;
+    margin-bottom: 100px;
+  }
+}
+/* line 266, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#javascriptComponents {
+  padding-bottom: 0;
+}
+/* line 268, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#javascriptComponents .btn-raised {
+  margin: 10px 5px;
+}
+
+/* line 272, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.layers-container {
+  display: block;
+  margin-top: 50px;
+  position: relative;
+}
+/* line 276, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.layers-container img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+/* line 285, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-black {
+  background-color: #333333;
+}
+
+/* line 288, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.animate {
+  transition: 1.5s ease-in-out;
+}
+
+/* line 292, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area {
+  margin-top: 80px;
+}
+/* line 294, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn {
+  margin: 15px 4px 0;
+  color: #ffffff;
+}
+/* line 297, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn i {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+/* line 304, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-twitter {
+  background-color: #55acee;
+  box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12);
+}
+/* line 308, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-twitter:hover {
+  box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2);
+}
+/* line 313, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-facebook {
+  background-color: #3b5998;
+  box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+}
+/* line 317, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-facebook:hover {
+  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
+}
+/* line 322, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-google-plus {
+  background-color: #dd4b39;
+  box-shadow: 0 2px 2px 0 rgba(221, 75, 57, 0.14), 0 3px 1px -2px rgba(221, 75, 57, 0.2), 0 1px 5px 0 rgba(221, 75, 57, 0.12);
+}
+/* line 326, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-google-plus:hover {
+  background-color: #dd4b39;
+  box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2);
+}
+/* line 332, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-github {
+  background-color: #333333;
+  box-shadow: 0 2px 2px 0 rgba(51, 51, 51, 0.14), 0 3px 1px -2px rgba(51, 51, 51, 0.2), 0 1px 5px 0 rgba(51, 51, 51, 0.12);
+}
+/* line 336, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.sharing-area .btn-github:hover {
+  background-color: #333333;
+  box-shadow: 0 14px 26px -12px rgba(51, 51, 51, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(51, 51, 51, 0.2);
+}
+
+/* line 343, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-thin {
+  padding: 0;
+}
+
+/* line 346, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-notifications {
+  padding: 0;
+}
+
+/* line 349, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-navbars {
+  padding-top: 0;
+}
+
+/* line 352, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-tabs {
+  background: #eee;
+}
+
+/* line 355, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-pagination {
+  padding-bottom: 0;
+}
+
+/* line 359, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-examples a {
+  text-decoration: none;
+}
+/* line 362, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-examples h5 {
+  margin-top: 30px;
+}
+
+/* line 367, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.components-page .title {
+  color: #ffffff;
+}
+/* line 370, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.components-page .wrapper > .header {
+  height: 400px;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 378, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tutorial-page .title {
+  color: #ffffff;
+}
+/* line 381, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.tutorial-page .wrapper > .header {
+  height: 400px;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 388, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#navbar-full .navbar {
+  border-radius: 0 !important;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+
+/* line 394, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#buttons .btn {
+  margin: 0 0 15px;
+}
+
+/* line 397, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.navbar-small .logo-container .brand {
+  color: #333333;
+}
+
+/* line 400, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.social-buttons-demo .btn {
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+/* line 404, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.presentation .front {
+  transition: all .2s;
+}
+/* line 407, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.presentation .front:after {
+  transition: all .2s;
+}
+/* line 411, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.presentation .front .btn {
+  transition: all .2s;
+}
+
+/* line 416, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#images h4 {
+  margin-bottom: 30px;
+}
+
+/* line 419, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.navbar-default.navbar-small .logo-container .brand {
+  color: #333333;
+}
+
+/* line 422, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.navbar-transparent.navbar-small .logo-container .brand {
+  color: #ffffff;
+}
+
+/* line 425, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+#navbar .navbar {
+  border-radius: 0;
+}
+
+/* line 429, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.section-download h4 {
+  margin-bottom: 25px;
+}
+
+/* line 433, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.input-group-addon {
+  background-color: inherit;
+  border: none;
+  padding-left: 0;
+}
+
+/* line 439, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.card-signup {
+  padding: 15px 5px 15px 5px;
+}
+
+/* line 443, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.form-checkbox {
+  padding-left: 0px;
+}
+
+/* line 447, /Users/benjaminwacha/Code/ruby/dispatch/app/assets/stylesheets/login.scss */
+.form-buttons {
+  width: 100%;
+}
